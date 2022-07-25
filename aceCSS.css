@@ -1,0 +1,55 @@
+*{
+	margin: 0;
+	padding:10px;
+}
+
+body{
+	background-image: url("acefundo.jpg");
+	background-repeat: repeat;
+	background-attachment: fixed;
+}
+
+h1{
+	color: black;
+}
+
+
+p{
+	font-family: arial;
+	color: black;
+}
+
+li{
+	padding: 0.6em;
+	list-style: none;
+	display: inline-block;
+}
+
+a{
+	text-decoration: none;
+	font-size: 1.5em;
+	font-weight: bold;
+	padding: 0.5em;
+}
+
+a:link{
+	color: black;
+	background-color: #F0FFF0;
+	border-radius: 10px;
+
+}
+
+a:hover{
+	color: #F0FFF0;
+	background-color: #87CEEB;
+}
+
+a:active{
+	color: black;
+	background-color: #87CEEB;
+}
+
+a:visited{
+	color: white;
+	background-color: black;
+}
